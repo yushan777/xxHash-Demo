@@ -28,7 +28,7 @@ python hash.py --dir_path /path/to/directory
 
 ### Advanced Options
 
-Partial hashing (first 10MB of each file):
+Partial hashing (first 1MB * max_chunks (default 25) of each file):
 ```
 python hash.py --dir_path /path/to/directory --hash_mode partial
 ```
